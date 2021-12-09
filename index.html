@@ -1,46 +1,54 @@
 <!DOCTYPE html>
 <html>
-<!-- 
-	Name: Harun_Hadžo
-	Assignment: CV -first
-	Date: 09.10.2021.
 
-	-->
 <head>
 	<meta charset="utf-8">
 	<title>Harun Hadzo - Curriculum Vitae</title>
 	<!--
 		Background image
 	-->
+	
 
 <!--BOOTSTRAP -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">"
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <link rel="stylesheet" href="Styles.css">
+
+
 </head>
 <body>
 	
-	<div class="container-fluid">
+	<div class="container-fluid uvod">
 		<div class="row">
 			<div class="col-md-2 col-sm-3" >
 				<figure><img src="images/SlikazaCV.jpg" alt="CV photo" class="profile">
 					<!-- <figcaption>It's mee</figcaption> -->
 				</figure>
 			</div>
-			<div class="col-md-5 col-sm-8">
-				<h2 id = "har">Harun Hadžo</h2>
-					<p class="info">
-						
-						<strong>Date of birth:</strong> 06/01/2001 | <strong>Nationality:</strong> Bosniak | <strong>Gender:</strong> Male </br>
-						(+387) 62061369 | (+387) 32842258 | harunhadzo99@gmail.com </br>
-						<strong>LinkedIn: </strong><a class= "link" style="text-decoration: none;" href="https://www.linkedin.com/in/harun-had%C5%BEo-3a4b0a198/">Harun Hadžo</a> 
-						|  <strong>Skype:</strong> <a class = "link" style="text-decoration: none;" href="https://join.skype.com/invite/oEdX7DOt7Oe3">Harun Hadžo </a> </br>
-						<!--<strong>Address: </strong> --> Vardište 28., 71370, Breza, Bosnia and Herzegovina &#127463;&#127462;</br>
-						
+			<div class=" info col-md-5 col-sm-8">
+				<h2 class = "har" id="colorpad">
+					<div class="div col-md-5" id="colorpadback" >Harun Hadžo 
+						<span id="colorspan">default</span>
+					</div>
+					
+				</h2>
+
+				<button class="colorbtn" onclick="setRandomColor()">Color</button>
+				<button class="colorbtn2" onclick="setRandomBackColor()()">BColor</button>
+				
+					<p class="infopar" >
+					<ul> 
+						<li> <strong> Date of birth:</strong> <span id="info1"> 06/01/2001 | </span> </li>
+						<li>	 <strong>Nationality:</strong>  <span id="info2">Bosniak |</span> </li>
+						<li>	<strong>Gender:</strong> <span id="info3"> Male  </span></li> 
+						<li id="info2"> <strong>LinkedIn: </strong><a class= "link" style="text-decoration: none;" href="https://www.linkedin.com/in/harun-had%C5%BEo-3a4b0a198/">Harun Hadžo</a> 
+						|  <strong>Skype:</strong> <a class = "link" style="text-decoration: none;" href="https://join.skype.com/invite/oEdX7DOt7Oe3">Harun Hadžo </a>  </li>
+						<li id="info3">	<!--<strong>Address: </strong> --> Vardište 28., 71370, Breza, Bosnia and Herzegovina &#127463;&#127462;</li>
+					</ul>
 
 					</p>
 			</div>
@@ -169,9 +177,7 @@
 
 				<dt><b>Programming and Coding</b></dt>
 				<dd><span class="skill">Programming languages: </span><br>
-				<!--	
-				acronym myb use here
-				-->	
+				
 					<p class="skill">C,C++, Java, Python, R </p><br>
 				</dd>
 				<dd><span class="skill">Text editors: </span></br>
@@ -189,30 +195,59 @@
 	<p class="vol">Hastor Foundation (2020-ongoing)</p>
 	<h3 class="drive">Driving licence &#x1F697;</h3>
 	<p class="drive"><acronym title="motor vehicle with a maximum weight of 3,500kg"><strong>B</strong></p> </br>
-
-	<!--	
-				bottom to top link shortcuts
-				-->	
-	<!--<a href="#har"><img src="images/upbutton1.html" id="fixedbutton"></a>	
-
-	<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
-		<path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
-	  </svg>  -->
-	  
 	  
 
-	<h4 class="shocut">Shortcuts</h4>
-	<span style="margin-left: 10px;"> <strong>Jump to Section:</strong> </span> <br>
+			<h3 class="shocut" style="font-size: 20pt; color: rgb(129, 90, 18);
+			font-family: Verdana, Geneva, Tahoma, sans-serif;"> Shortcuts</h3>
+
+			
+			
+			<div class="tab">
+			  <button class="tablinks1" onclick="openShortcut(event, 'B')">B</button>
+			  <button class="tablinks" onclick="openShortcut(event, 'ET')">E&T</button>
+			  <button class="tablinks" onclick="openShortcut(event, 'P')">P</button>
+			  <button class="tablinks" onclick="openShortcut(event, 'L')">L</button>
+			  <button class="tablinks" onclick="openShortcut(event, 'S')">S</button>
+			</div>
+			
+			
+			<div id="B" class="tabcontent">
+			  <h2><a style="text-decoration: none; margin-left: 25px; color: rgb(129, 90, 18); " href="#Profile">Biography</a></h2>
+			  <p>Click here to jump to Biography section.</p>
+			</div>
+			
+			<div id="ET" class="tabcontent">
+			  <h2><a style="text-decoration: none; margin-left: 25px; color: rgb(129, 90, 18) " href="#edu">Education and Training</a></h2>
+			  <p>Click here to jump to Educatio & Training section.</p>
+			</div>
+			
+			<div id="P" class="tabcontent">
+			  <h2><a style="text-decoration: none; margin-left: 25px; color: rgb(129, 90, 18); " href="#proj">Projects</a></h2>
+			  <p>Click here to jump to Projects section.</p>
+			</div>
+
+			<div id="L" class="tabcontent">
+				<h2><a style="text-decoration: none; margin-left: 25px; color: rgb(129, 90, 18); " href="#lang">Languages</a></h2>
+				<p>Click here to jump to Languages section.</p>
+			</div>
+
+			<div id="S" class="tabcontent">
+				<h2><a style="text-decoration: none; margin-left: 25px; color: rgb(129, 90, 18); " href="#skill">Skills</a></h2>
+				<p>Click here to jump to Skills section.</p>
+			</div>
+
+
 	
-	<a style="text-decoration: none; margin-left: 25px; color: rgb(129, 90, 18); " href="#Profile">Biography</a> <br>
-	<a style="text-decoration: none; margin-left: 25px; color: rgb(129, 90, 18) " href="#edu">Education and Training</a> <br>
-	<a style="text-decoration: none; margin-left: 25px; color: rgb(129, 90, 18); " href="#proj">Projects</a> <br>
-	<a style="text-decoration: none; margin-left: 25px; color: rgb(129, 90, 18); " href="#lang">Languages</a><br>
-	<a style="text-decoration: none; margin-left: 25px; color: rgb(129, 90, 18); " href="#skill">Skills</a><br>
+	
 
 	<hr>
 
-	<button class="btn1"> <a href="#har"><i class="fa fa-angle-double-up"></i></i> </a></button>
+	<button  id="topbtn1" title="Go Top" >
+		<i class="fa fa-angle-double-up"></i>
+	</button>
+
+	
+
 
 	<footer>
 	<!--	
@@ -232,5 +267,9 @@
 
 	</footer>
 
+	
+
+
+<script src="script.js"></script>
 </body>
 </html>
